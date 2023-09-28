@@ -1,0 +1,274 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    font-family: "Barlow", sans-serif;
+    line-height: 1.7;
+    color: #516171;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700 !important;
+    color: #092032;
+}
+
+a {
+    color: #092032;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 500;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.bg-cover {
+    background-position: center !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.intro{
+    margin-bottom: 40px;
+}
+
+.intro h6{
+    font-weight: 400;
+    color: #ff4d29;
+}
+
+.intro p {
+    max-width: 500px;
+    margin: auto;
+}
+
+/* NAVBAR */
+.top-nav{
+   background-color: #ff4d29 ;
+}
+
+.top-nav p{
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 16px;
+    color: #ffffff;
+}
+
+.top-nav i,
+.top-nav span {
+    vertical-align: middle;
+}
+
+.social-links a {
+    width: 34px;
+    height: 34px;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 100%;
+}
+.social-links a:hover {
+    background-color: #ffffff;
+    color: #ff4d29;
+}
+
+.navbar{
+    box-shadow:0px 6px 30px rgba(0, 0, 0, 0.08) ;
+}
+
+
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+    color: #ff4d29;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 26px;
+    color: #092032;
+}
+
+.navbar-brand span{
+    color: #ff4d29;
+}
+
+/* btn */
+
+.btn {
+    padding: 9px 24px;
+    font-weight: 500;
+}
+
+.btn-brand {
+    background: #ff4d29;
+    color: #ffffff;
+    border-color: #ff4d29;
+}
+
+.btn-brand:hover {
+    color: #ffffff;
+    background: #e04122;
+}
+
+
+
+
+
+/* slider */
+.slide1 {
+    background: linear-gradient(rgba(9, 32, 50, 0.4), rgba(9, 32, 50, 0.4)), url(../img/gallery-1.jpg);
+}
+.slide2 {
+    background: linear-gradient(rgba(9, 32, 50, 0.4), rgba(9, 32, 50, 0.4)), url(../img/gallery-5.jpg);
+}
+
+/* owl carousel */
+.owl-prev,
+.owl-next{
+    position: absolute;
+    top: 50%;
+    width: 60px !important;
+    height: 60px !important;
+    display: grid;
+    place-items: center;
+    background-color: rgb(255, 255, 255, 0.2) !important;
+    margin-top: -30px !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    border-radius: 100px !important;
+}
+
+
+.owl-prev {
+    left: 0;
+}
+
+.owl-next {
+    right: 0;
+}
+
+.owl-next:hover,
+.owl-prev:hover {
+    background-color: #ff4d29 !important;
+}
+
+/* info */
+.info-box {
+    display: flex;
+    align-items: center;
+}
+.info-box img {
+    width: 90%;
+    margin-right: 24px;
+}
+
+/* milestone */
+#milestone{
+    background: linear-gradient(rgba(255, 77, 41, 0.8), rgba(255, 77, 41, 0.8)), url(../img/hunters-race-MYbhN8KaaEc-unsplash.jpg);
+    
+}
+
+#milestone .display-4,
+#milestone p{
+    color: #ffffff;
+}
+
+#milestone .display-4 {
+    font-weight: 700;
+}
+
+/* services */
+.service-box {
+    padding: 32px;
+    box-shadow:0px 6px 30px rgba(0, 0, 0, 0.08) ;
+    text-align: center;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.service-box img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.service-box h5 {
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+#services .service-box:hover {
+    transform: translateY(-20px);
+    box-shadow: none;
+    
+}
+
+/* Estilos para la sección de "POTENCIA TUS VENTAS Y TOMA DECISIONES INTELIGENTES" */
+.section-potencia-ventas {
+    background-color: #f0f0f0;
+    padding: 40px;
+}
+
+.section-potencia-ventas h5 {
+    text-align: center;
+    font-size: 24px;
+    color: #ff4d29;
+    margin-bottom: 20px;
+}
+
+.section-potencia-ventas .img-principal {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%; /* Reducimos el tamaño de la imagen principal */
+}
+
+/* Estilos para los elementos de la columna derecha */
+.section-potencia-ventas .col-md-6 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-potencia-ventas h6 {
+    font-size: 18px;
+    color: #092032;
+    margin-top: 20px;
+}
+
+.section-potencia-ventas p {
+    color: #516171;
+    line-height: 1.6;
+}
+
+/* Estilos para los iconos */
+.section-potencia-ventas .icono {
+    width: 80px;
+    margin-right: 10px; /* Separación entre el icono y el texto */
+    display: inline-block; /* Para alinear verticalmente con el texto */
+}
+
+.section-potencia-ventas .image-services {
+    display: flex;
+    justify-content: center;
+    margin: auto 0;
+}
+
+
+.section-potencia-ventas .image-services img {
+    width: 60%;
+    height: 60%;
+}
+
+
+
+

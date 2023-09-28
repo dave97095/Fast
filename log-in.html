@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAST - Inicio de Sesión</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="./css/boxicons.min.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+       
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="card">
+                    <!-- <img src="fast_programa_logo.png" alt="FAST Programa Logo" class="brand-logo"> -->
+                    <h1 class="text-center">Iniciar Sesion</h1>
+                   
+                    <form id="inicio-sesion-form" class="px-4 py-4">
+                        <div class="form-group">
+                            <label for="email-inicio">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="email-inicio" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contrasena-inicio">Contraseña</label>
+                            <input type="password" class="form-control" id="contrasena-inicio" required>
+                        </div>
+                        <button class="btn btn-primary my-2 mb-4" type="submit">Iniciar Sesión</button>
+                        <p>No tienes una cuenta? <a href="registro.html">Regístrate aquí</a></p>
+                        <div class="icon-back"> 
+                           <a href="index.html"><i class='bx bx-left-arrow-alt'></i></a> 
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+     
+    </div>
+
+    <!--  scripts de Bootstrap y jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
